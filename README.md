@@ -32,7 +32,7 @@ vapi.FetchProfile("Suremeoz").then(profile=> {
 ```
 
 But ***Wait***, before you do anything, let's make sure the username is valid, and exists. 
-We've made your job easier by having this useful method you can call.
+We've made your job easier by having this variable you can use.
 ```javascript
 vapi.FetchProfile("Suremeoz").then(profile=> {
     if (profile.Valid) {
